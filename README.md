@@ -621,4 +621,110 @@ File: utils/, worker.js, controllers/UsersController.js
  
 Copyright © 2023 ALX, All rights reserved.
 
+Skip to content
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+0x04. Files manager
+
+ 0 stars
+ 0 forks
+ 1 watching
+ Activity
+Public repository
+aysi143/alx-files_manager
+ Branches
+ Tags
+Latest commit
+@aysi143
+aysi143 add some tests to the globe
+…
+on Mar 6
+Git stats
+ 2
+Files
+Type
+Name
+Commit time
+controller
+9 months ago
+controllers
+9 months ago
+routes
+9 months ago
+tests
+9 months ago
+utils
+9 months ago
+.eslintrc.js
+9 months ago
+.gitignore
+9 months ago
+README.md
+9 months ago
+babel.config.js
+9 months ago
+image_upload.py
+9 months ago
+main.js
+9 months ago
+package-lock.json
+9 months ago
+package.json
+9 months ago
+server.js
+9 months ago
+README.md
+Files Manager
+A simple file management API built with Express, MongoDB, Redis, Bull, and Node.js.
+
+Requirements
+Applications
+Node.js
+Yarn (the package manager/resource negotiator)
+APIs
+A Google API should be created with at least an email sending scope and a valid URL (e.g.; http://localhost:5000/) should be one of the redirect URIs. The credentials.json file should be stored in the root directory of this project.
+Environment Variables
+The required environment variables should be stored in a file named .env and each line should have the format Name=Value. The table below lists the environment variables that will be used by this server:
+
+Name	Required	Description
+GOOGLE_MAIL_SENDER	Yes	The email address of the account responsible for sending emails to users.
+PORT	No (Default: 5000)	The port the server should listen at.
+DB_HOST	No (Default: localhost)	The database host.
+DB_PORT	No (Default: 27017)	The database port.
+DB_DATABASE	No (Default: files_manager)	The database name.
+FOLDER_PATH	No (Default: /tmp/files_manager (Linux, Mac OS X) & %TEMP%/files_manager (Windows))	The local folder where files are saved.
+Installation
+Clone this repository and switch to the cloned repository's directory.
+Install the packages using yarn install or npm install.
+Usage
+Start the Redis and MongoDB services on your system and run yarn start-server or npm run start-server.
+
+Tests
+Create a separate .env file for the tests named .env.test and store the value of the environment variables for the testing event in it.
+Run yarn test or npm run test to execute the E2E tests.
+Authors
+Nebiha Dilsebo and Petros Birkneh
+Releases
+No releases published
+Packages
+No packages published
+Languages
+JavaScript
+97.1%
+ 
+Python
+2.9%
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
 
