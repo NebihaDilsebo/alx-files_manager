@@ -1,15 +1,16 @@
 {
   "name": "files_manager",
   "version": "1.0.0",
-  "description": "",
+  "description": "Toggle navigation Curriculum Short Specializations Average: 134.25% You just released the advanced tasks of this project. Have fun! 0x04. Files manager Back-end JavaScript ES6 NoSQL MongoDB Redis NodeJS ExpressJS Kue  By: Guillaume, CTO at Holberton School  Weight: 1  Project to be done in teams of 2 people (your team: Petros Birkneh, Nebiha Dilsebo)  Project will start Nov 29, 2023 7:00 PM, must end by Dec 6, 2023 7:00 PM  Checker was released at Dec 1, 2023 1:00 PM  Manual QA review must be done (request it when you are done with the project)  An auto review will be launched at the deadline This project is a summary of this back-end trimester: authentication, NodeJS, MongoDB, Redis, pagination and background processing.",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint",
+    "lint": "eslint",
     "check-lint": "lint [0-9]*.js",
     "start-server": "nodemon --exec babel-node --presets @babel/preset-env ./server.js",
     "start-worker": "nodemon --exec babel-node --presets @babel/preset-env ./worker.js",
     "dev": "nodemon --exec babel-node --presets @babel/preset-env",
-    "test": "./node_modules/.bin/mocha --require @babel/register --exit"
+    "test": "mocha --require @babel/register --exit",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -40,5 +41,6 @@
     "nodemon": "^2.0.2",
     "request": "^2.88.0",
     "sinon": "^7.5.0"
-  }
+  },
+  "keywords": []
 }
